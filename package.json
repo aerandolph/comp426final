@@ -1,0 +1,23 @@
+{
+  "name": "comp426final-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerandolph/comp426final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aerandolph/comp426final/issues"
+  },
+  "homepage": "https://github.com/aerandolph/comp426final#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "jquery": "file:node_modules/jquery"
+  }
+}
