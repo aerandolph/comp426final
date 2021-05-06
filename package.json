@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +20,5 @@
   "bugs": {
     "url": "https://github.com/aerandolph/comp426final/issues"
   },
-  "homepage": "https://github.com/aerandolph/comp426final#readme",
-  "dependencies": {
-    "browser-sync": "^2.26.14",
-    "jquery": "file:node_modules/jquery"
-  }
+  "homepage": "https://github.com/aerandolph/comp426final#readme"
 }
