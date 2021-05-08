@@ -18,6 +18,23 @@ export const setupPage = function(user) {
             <br>
             <p class="subtitle has-text-dark">Welcome ${user.email}! :) Glad to see you!</p>
             <br>
+
+
+            <div class="columns" stype="padding:10px">
+                <div class="column has-background-dark">
+                    <div id="gamePicture" class="box">
+                        <img src="plain_background.png" alt="game_screen">
+                    </div>
+                </div>
+                <div class="column has-background-dark">
+                    <div id="gameInformation" class="box">
+                        <button id="startGame" class="button is-dark">Start the Game</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
             <p class="subtitle has-text-dark">How The Game Works</p>
             <p class="has-text-grey">Each game a random number is selected with help from an API. The damage and health of the player and dragon are selected using a formula based on this random number. The goal of the game is to get the dragon's health to drop below 0 before the player's health drops below 0.</p>
             <br>
@@ -34,20 +51,7 @@ export const setupPage = function(user) {
             <p class="has-text-dark"><span class="has-text-danger">Clubs Card:</span> in attack, you deal twice as much damage to the dragon as normal </p>
             <p class="has-text-dark"><span class="has-text-danger">Diamonds Card:</span> the dragon heals an 8th of its remaining health (to a max of 100%)</p>
             <br>
-            
-            <div class="columns" stype="padding:10px">
-                <div class="column has-background-dark">
-                    <div id="gamePicture" class="box">
-                        <img src="plain_background.png" alt="game_screen">
-                    </div>
-                </div>
-                <div class="column has-background-dark">
-                    <div id="gameInformation" class="box">
-                        <button id="startGame" class="button is-dark">Start the Game</button>
-                    </div>
-                </div>
-            </div>
-
+           
         </div>
         </div>`);
 };
