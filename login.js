@@ -53,14 +53,16 @@ export const setupError = function(event) {
     <br>
     <div style="padding:20px" class="section has-background-grey">
 
-        <p class="has-text-grey-lighter">There was a problem. :( Please try again. (This is the login page, if you need to make an account select that button.)</p>
+        <p class="has-text-grey-lighter">Something went wrong. :( Maybe you tried to make an account with the same email address, had a bad password or email address, or there was a glitch. Please try again or use the provided testing credentials.</p>
+        <p> email: alaina.randolph@gmail.com </p>
+        <p> password: test123 </p>
         <br>
-        <input class="input" type="text" id="emailLogin" value="Your email"></input>
-        <input class="input" type="text" id="passwordLogin" value="Your password"></input>
-        <br>
-        <button id="submitLogin" class="button is-dark" type="button">Submit!</button>
-        <button id="createButton" class="button is-dark" type="button">I need to make an account instead.</button>
+        <button id="loginButton" class="button is-dark" type="button">I already have an account.</button>
+        <button id="createButton" class="button is-dark" type="button">I need to make an account.</button>
         <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
+        <br>
+        <br>
+        <button class="button is-dark" onclick="window.location.href='rEnder_it.html'">Bypass Login to Play the Game (Provided for testing purposes)</button>
     </div>
     </div>`);
 };
@@ -74,7 +76,7 @@ export const setupCreate = function(event) {
     </div>
     <br>
     <div style="padding:20px" class="section has-background-grey">
-        <p class="has-text-grey-lighter">Please create an account or select to log in instead! :)</p>
+        <p class="has-text-grey-lighter">Please create an account or select to log in instead! :) (The email address you use must be a real email account. The password must be at least 6 characters.) </p>
         <br>
         <input class="input" type="text" id="emailCreate" value="Your email"></input>
         <input class="input" type="text" id="passwordCreate" value="Your password"></input>
