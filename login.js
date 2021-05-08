@@ -80,7 +80,7 @@ export const setupError = function(event) {
     <br>
     <div style="padding:20px" class="section has-background-grey">
 
-        <p class="subtitle has-text-grey-lighter">Something went wrong. :( Maybe you tried to make an account with the same email address, had a bad password or email address, or there was a glitch. Please try again or log in using the provided testing credentials.</p>
+        <p class="subtitle has-text-grey-lighter">Something went wrong. :( Maybe you tried to make an account with an email address that is already registered, had a bad password or email address, or there was a glitch. Please try again or log in using the provided testing credentials.</p>
         <p class="has-text-grey-lighter"> Testing Credentials Available:</p>
         <p class="has-text-grey-lighter"> email: alaina.filter (at Google's free email service--not writing it out fully to avoid web spider spammers :) ) </p>
         <p class="has-text-grey-lighter"> password: test123 </p>
