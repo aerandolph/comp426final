@@ -22,9 +22,9 @@ export const setupPage = function(user) {
             <p class="has-text-grey">Each game a random number will be selected with help from an API and the dragon's damage and health</p>
             <p class="has-text-grey">(as well as yours) will be calculated from that number. Using another API, a deck of cards will also be shuffled and then drawn one by one.</p>
             <p class="has-text-grey">You or the dragon will get a buff each round based on the card drawn. Each round you can </p>
-            <p class="has-text-grey">press the right key to hide in the cave (no damage to you or the dragon), press the left key </p>
+            <p class="has-text-grey">press the left key to hide in the cave (no damage to you or the dragon), press the right key </p>
             <p class="has-text-grey">to attack from behind a shield (half (rounded up) the dragon's damage to you and 3/4 (rounded up) your damage to the dragon), </p>
-            <p class="has-text-grey">or forward to have full attack from both sides. If you go to or below 0 health, you lose. If the </p>
+            <p class="has-text-grey">or press the up key to have full attack from both sides. If you go to or below 0 health, you lose. If the </p>
             <p class="has-text-grey">dragon goes to or below 0 health, you win. (If both happen at the same time, you win.) If you run out </p>
             <p class="has-text-grey">of cards with both above 0 health, you tie.</p>
             
