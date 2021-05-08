@@ -18,16 +18,16 @@ export const setupPage = function(user) {
             <br>
             <p class="subtitle has-text-dark">Welcome ${user.email}! :) Glad to see you!</p>
             <br>
-            <p class="subtitle has-text-dark">How to Play</p>
-            <p class="has-text-grey">Each game a random number will be selected with help from an API and the dragon's damage and health</p>
-            <p class="has-text-grey">(as well as yours) will be calculated from that number. Using another API, a deck of cards will also be shuffled and then drawn one by one.</p>
-            <p class="has-text-grey">You or the dragon will get a buff each round based on the card drawn. Each round you can </p>
-            <p class="has-text-grey">press the left key to hide in the cave (no damage to you or the dragon), press the right key </p>
-            <p class="has-text-grey">to attack from behind a shield (half (rounded up) the dragon's damage to you and 3/4 (rounded up) your damage to the dragon), </p>
-            <p class="has-text-grey">or press the up key to have full attack from both sides. If you go to or below 0 health, you lose. If the </p>
-            <p class="has-text-grey">dragon goes to or below 0 health, you win. (If both happen at the same time, you win.) If you run out </p>
-            <p class="has-text-grey">of cards with both above 0 health, you tie.</p>
-            
+            <p class="subtitle has-text-dark">How The Game Works</p>
+            <p class="has-text-grey">Each game a random number is selected with help from an API. The damage and health of the player and dragon are selected using a formula based on this random number. The goal of the game is to get the dragon's health to drop below 0 before the player's health drops below 0.</p>
+            <br>
+            <p class="subtitle has-text-dark">Controls</p>
+            <p class="has-text-grey">Up Arrow Button: You perform a standard attack. You and the dragon take damage.</p>
+            <p class="has-text-grey">Left Arrow Button: You hide in the cave, and neither you or the dragon take damage.</p>
+            <p class="has-text-grey">Right Arrow Button: You hide behind a shield and fire an arrow at the dragon. You take half damage (if odd number, rounded up). The dragon takes 3/4 damage (if odd number, rounded up).</p>
+            <br>
+            <p class="subtitle has-text-dark">Cards</p>
+            <p class="has-text-grey">Cards add healing or change the damage inflicted by each move. Make sure to check which card you have coming up each round before making a decision! Each game, 52 cards are shuffled and then drawn one by one using an API.</p>
             <br>
             <p class="has-text-dark"><span class="has-text-danger">Hearts Card:</span> hiding in the cave heals you to full health.</p>
             <p class="has-text-dark"><span class="has-text-danger">Spades Card:</span> shield prevents dragon from dealing damage </p>
