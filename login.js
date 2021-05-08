@@ -57,7 +57,9 @@ export const setupLogin = function(event) {
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailLogin" placeholder="Your email"></input>
         <br>
+        <br>
         <p class="subtitle has-text-grey-lighter">Password:  </p><input class="input" type="text" id="passwordLogin" placeholder="Your password"></input>
+        <br>
         <br>
         <br>
         <button id="submitLogin" class="button is-dark" type="button">Login!</button>
@@ -107,7 +109,9 @@ export const setupCreate = function(event) {
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailCreate" placeholder="Your email"></input>
         <br>
+        <br>
         <p class="subtitle has-text-grey-lighter">Password:  </p><input class="input" type="text" id="passwordCreate" placeholder="Your password"></input>
+        <br>
         <br>
         <br>
         <button id="submitCreate" class="button is-dark" type="button">Make Account!</button>
