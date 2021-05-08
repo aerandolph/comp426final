@@ -111,7 +111,7 @@ export const submitLogin = function(event) {
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             let user = userCredential.user.email;
-            successfulLogin(event, user);
+            successfulLogin(event, userCredential.user.email);
         })
         .catch((error) => {
             setupError(event);
