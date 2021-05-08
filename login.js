@@ -20,6 +20,28 @@ export const setupLoginOrCreate = function() {
     </div>`);
 };
 
+export const setupMain = function(event) {
+    const $root = $('#root');
+    $(event.target.parentNode.parentNode).replaceWith(`<div id="root" style="height:100vh" class="has-background-grey">
+    <div class="section has-background-dark">
+        <h1 class="title has-text-grey-lighter">Login Page for Dragon-Fighting Game</h1>
+        <h3 class="subtitle has-text-grey-lighter">made by Alaina Randolph (aer)</h3>
+    </div>
+    <br>
+    <div style="padding:20px" class="section has-background-grey">
+
+        <p class="has-text-grey-lighter">Please log in or make an account to play! :)</p>
+        <br>
+        <button id="loginButton" class="button is-dark" type="button">I already have an account.</button>
+        <button id="createButton" class="button is-dark" type="button">I need to make an account.</button>
+        <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
+        <br>
+        <br>
+        <button class="button is-dark" onclick="window.location.href='rEnder_it.html'">Bypass Login to Play the Game (Provided for testing purposes)</button>
+    </div>
+    </div>`);
+};
+
 
 export const setupLogin = function(event) {
     const $root = $('#root');
@@ -39,6 +61,7 @@ export const setupLogin = function(event) {
         <button id="submitLogin" class="button is-dark" type="button">Submit!</button>
         <button id="createButton" class="button is-dark" type="button">I need to make an account instead.</button>
         <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
+        <button id="mainPage" class="button is-dark">Main Page</button>
     </div>
     </div>`);
 };
@@ -61,6 +84,7 @@ export const setupError = function(event) {
         <button id="loginButton" class="button is-dark" type="button">I already have an account.</button>
         <button id="createButton" class="button is-dark" type="button">I need to make an account.</button>
         <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
+        <button id="mainPage" class="button is-dark">Main Page</button>
         <br>
         <br>
         <button class="button is-dark" onclick="window.location.href='rEnder_it.html'">Bypass Login to Play the Game (Provided for testing purposes)</button>
@@ -85,6 +109,7 @@ export const setupCreate = function(event) {
         <button id="submitCreate" class="button is-dark" type="button">Make Account!</button>
         <button id="loginButton" class="button is-dark" type="button">Actually, I already have an account.</button>
         <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
+        <button id="mainPage" class="button is-dark">Main Page</button>
     </div>
     </div>`);
 };
@@ -101,7 +126,7 @@ export const successfulLogin = function(event, user) {
         <p class="has-text-grey-lighter">Welcome ${user}! :)</p>
         <br>
         <button class="button is-dark" onclick="window.location.href='rEnder_it.html'">Play the Game!</button>
-        <button id="logout" class="button is-dark" >Logout</button>
+        <button id="logout" class="button is-dark" >Logout and Return to Main Page</button>
     </div>
     </div>`);
 };
@@ -148,6 +173,7 @@ export const pageManager = function() {
     setupLoginOrCreate();
     
     $root.on("click", "#loginButton", (event) => setupLogin(event));
+    $root.on("click", "#mainPage", (event) => setupMain(event));
     $root.on("click", "#createButton", (event) => setupCreate(event));
     $root.on("click", "#submitLogin", (event) => submitLogin(event));
     $root.on("click", "#submitCreate", (event) => submitCreate(event));
