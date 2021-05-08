@@ -53,7 +53,7 @@ export const setupLogin = function(event) {
     <br>
     <div style="padding:20px" class="section has-background-grey">
 
-        <p class="subtitle has-text-grey-lighter">Please log in or select "I need to make an account instead." :)</p>
+        <p class="subtitle has-text-grey-lighter">Please log in or select "I need to make an account" instead. :)</p>
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailLogin" placeholder="Your email"></input>
         <br>
@@ -63,7 +63,7 @@ export const setupLogin = function(event) {
         <br>
         <br>
         <button id="submitLogin" class="button is-dark" type="button">Login!</button>
-        <button id="createButton" class="button is-dark" type="button">I need to make an account instead.</button>
+        <button id="createButton" class="button is-dark" type="button">I need to make an account</button>
         <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
         <button id="mainPage" class="button is-dark">Main Page</button>
     </div>
@@ -105,7 +105,7 @@ export const setupCreate = function(event) {
     </div>
     <br>
     <div style="padding:20px" class="section has-background-grey">
-        <p class="subtitle has-text-grey-lighter">Please create an account or select "Actually, I already have an account" to log in instead! :) (The email address you use must be a real email account. The password must be at least 6 characters.) </p>
+        <p class="subtitle has-text-grey-lighter">Please create an account or select "I already have an account" to log in instead! :) (The email address you use must be a real email account. The password must be at least 6 characters.) </p>
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailCreate" placeholder="Your email"></input>
         <br>
@@ -115,7 +115,7 @@ export const setupCreate = function(event) {
         <br>
         <br>
         <button id="submitCreate" class="button is-dark" type="button">Make Account!</button>
-        <button id="loginButton" class="button is-dark" type="button">Actually, I already have an account.</button>
+        <button id="loginButton" class="button is-dark" type="button">I already have an account</button>
         <button class="button is-dark" onclick="window.location.href='points_credits.html'">Points and Credits</button>
         <button id="mainPage" class="button is-dark">Main Page</button>
     </div>
