@@ -56,7 +56,9 @@ export const setupLogin = function(event) {
         <p class="subtitle has-text-grey-lighter">Please log in or select to make an account instead! :)</p>
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailLogin" placeholder="Your email"></input>
+        <br>
         <p class="subtitle has-text-grey-lighter">Password:  </p><input class="input" type="text" id="passwordLogin" placeholder="Your password"></input>
+        <br>
         <br>
         <button id="submitLogin" class="button is-dark" type="button">Login!</button>
         <button id="createButton" class="button is-dark" type="button">I need to make an account instead.</button>
@@ -104,7 +106,9 @@ export const setupCreate = function(event) {
         <p class="subtitle has-text-grey-lighter">Please create an account or select to log in instead! :) (The email address you use must be a real email account. The password must be at least 6 characters.) </p>
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailCreate" placeholder="Your email"></input>
+        <br>
         <p class="subtitle has-text-grey-lighter">Password:  </p><input class="input" type="text" id="passwordCreate" placeholder="Your password"></input>
+        <br>
         <br>
         <button id="submitCreate" class="button is-dark" type="button">Make Account!</button>
         <button id="loginButton" class="button is-dark" type="button">Actually, I already have an account.</button>
