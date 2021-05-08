@@ -36,17 +36,17 @@ export const setupPage = function(user) {
 
             <br>
             <p class="subtitle has-text-dark">How The Game Works</p>
-            <p class="has-text-grey">Each game a random number is selected with help from an API. The damage and health of the player and dragon are selected using a formula based on this random number. The goal of the game is to get the dragon's health to drop below 0 before the player's health drops below 0.</p>
+            <p class="has-text-grey">In each game a random number is selected with help from an API. The damage and health of the player and dragon are determined using a formula based on this random number. The goal of the game is to get the dragon's health to drop below 0 before the player's health drops below 0.</p>
             <br>
             <p class="subtitle has-text-dark">Controls</p>
             <p class="has-text-grey">Up Arrow Button: You perform a standard attack. You and the dragon take damage.</p>
-            <p class="has-text-grey">Left Arrow Button: You hide in the cave, and neither you or the dragon take damage.</p>
-            <p class="has-text-grey">Right Arrow Button: You hide behind a shield and fire an arrow at the dragon. You take half damage (if odd number, rounded up). The dragon takes 3/4 damage (if odd number, rounded up).</p>
+            <p class="has-text-grey">Left Arrow Button: You hide in the cave, and neither you nor the dragon take damage.</p>
+            <p class="has-text-grey">Right Arrow Button: You hide behind a shield and shoot an arrow at the dragon. You take half damage (if fractional number, rounded up). The dragon takes 3/4 damage (if fractional number, rounded up).</p>
             <br>
             <p class="subtitle has-text-dark">Cards</p>
-            <p class="has-text-grey">Cards add healing or change the damage inflicted by each move. Make sure to check which card you have coming up each round before making a decision! Each game, 52 cards are shuffled and then drawn one by one using an API.</p>
+            <p class="has-text-grey">Cards add healing or change the damage inflicted by each move. Make sure to check which card you have coming up each round before making a decision! During each game, 52 cards are shuffled and then drawn one by one using an API.</p>
             <br>
-            <p class="has-text-dark"><span class="has-text-danger">Hearts Card:</span> hiding in the cave heals you to full health.</p>
+            <p class="has-text-dark"><span class="has-text-danger">Hearts Card:</span> hiding in the cave heals you to full health</p>
             <p class="has-text-dark"><span class="has-text-danger">Spades Card:</span> shield prevents dragon from dealing damage </p>
             <p class="has-text-dark"><span class="has-text-danger">Clubs Card:</span> in attack, you deal twice as much damage to the dragon as normal </p>
             <p class="has-text-dark"><span class="has-text-danger">Diamonds Card:</span> the dragon heals an 8th of its remaining health (to a max of 100%)</p>
@@ -69,7 +69,7 @@ export const setupBadPage = function() {
             <br>
             <br>
             <p class="subtitle has-text-dark">You aren't signed in. To play, please go back and sign in. :( (testing credentials provided below)</p>
-            <p> email: alaina.randolph@gmail.com</P>
+            <p> email: alaina.filter (at google's free email service--not writing it out fully to avoid web spider spammers :) )</P>
             <p> password: test123 </p>
 
         </div>
