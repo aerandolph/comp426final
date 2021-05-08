@@ -53,9 +53,10 @@ export const setupError = function(event) {
     <br>
     <div style="padding:20px" class="section has-background-grey">
 
-        <p class="has-text-grey-lighter">Something went wrong. :( Maybe you tried to make an account with the same email address, had a bad password or email address, or there was a glitch. Please try again or use the provided testing credentials.</p>
-        <p> email: alaina.randolph@gmail.com </p>
-        <p> password: test123 </p>
+        <p class="subtitle has-text-grey-lighter">Something went wrong. :( Maybe you tried to make an account with the same email address, had a bad password or email address, or there was a glitch. Please try again or log in using the provided testing credentials.</p>
+        <p class="has-text-grey-lighter"> Testing Credentials Available:</p>
+        <p class="has-text-grey-lighter"> email: alaina.randolph@gmail.com </p>
+        <p class="has-text-grey-lighter"> password: test123 </p>
         <br>
         <button id="loginButton" class="button is-dark" type="button">I already have an account.</button>
         <button id="createButton" class="button is-dark" type="button">I need to make an account.</button>
