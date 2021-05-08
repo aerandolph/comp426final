@@ -53,7 +53,7 @@ export const setupLogin = function(event) {
     <br>
     <div style="padding:20px" class="section has-background-grey">
 
-        <p class="subtitle has-text-grey-lighter">Please log in or select to make an account instead! :)</p>
+        <p class="subtitle has-text-grey-lighter">Please log in or select "I need to make an account instead." :)</p>
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailLogin" placeholder="Your email"></input>
         <br>
@@ -105,7 +105,7 @@ export const setupCreate = function(event) {
     </div>
     <br>
     <div style="padding:20px" class="section has-background-grey">
-        <p class="subtitle has-text-grey-lighter">Please create an account or select to log in instead! :) (The email address you use must be a real email account. The password must be at least 6 characters.) </p>
+        <p class="subtitle has-text-grey-lighter">Please create an account or select "Actually, I already have an account" to log in instead! :) (The email address you use must be a real email account. The password must be at least 6 characters.) </p>
         <br>
         <p class="subtitle has-text-grey-lighter">Email:     </p><input class="input" type="text" id="emailCreate" placeholder="Your email"></input>
         <br>
