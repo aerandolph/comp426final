@@ -15,7 +15,7 @@ export const setupLoginOrCreate = function() {
         <button class="button is-dark" onclick="window.location.href='/points_credits.html'">Points and Credits</button>
         <br>
         <br>
-        <button class="button is-dark" onclick="window.location.href='/rEnder_it.html'">Bypass Login to Play the Game (Provided for testing purposes)</button>
+        <button class="button is-dark" onclick="window.location.href='/comp426final/rEnder_it.html'">Bypass Login to Play the Game (Provided for testing purposes)</button>
     </div>
     </div>`);
 };
@@ -38,7 +38,7 @@ export const setupLogin = function(event) {
         <br>
         <button id="submitLogin" class="button is-dark" type="button">Submit!</button>
         <button id="createButton" class="button is-dark" type="button">I need to make an account instead.</button>
-        <button class="button is-dark" onclick="window.location.href='/points_credits.html'">Points and Credits</button>
+        <button class="button is-dark" onclick="window.location.href='/comp426final/points_credits.html'">Points and Credits</button>
     </div>
     </div>`);
 };
@@ -60,7 +60,7 @@ export const setupError = function(event) {
         <br>
         <button id="submitLogin" class="button is-dark" type="button">Submit!</button>
         <button id="createButton" class="button is-dark" type="button">I need to make an account instead.</button>
-        <button class="button is-dark" onclick="window.location.href='/points_credits.html'">Points and Credits</button>
+        <button class="button is-dark" onclick="window.location.href='/comp426final/points_credits.html'">Points and Credits</button>
     </div>
     </div>`);
 };
@@ -81,7 +81,7 @@ export const setupCreate = function(event) {
         <br>
         <button id="submitCreate" class="button is-dark" type="button">Make Account!</button>
         <button id="loginButton" class="button is-dark" type="button">Actually, I already have an account.</button>
-        <button class="button is-dark" onclick="window.location.href='/points_credits.html'">Points and Credits</button>
+        <button class="button is-dark" onclick="window.location.href='/comp426final/points_credits.html'">Points and Credits</button>
     </div>
     </div>`);
 };
@@ -97,7 +97,7 @@ export const successfulLogin = function(event, user) {
     <div style="padding:20px" class="section has-background-grey">
         <p class="has-text-grey-lighter">Welcome ${user}! :)</p>
         <br>
-        <button class="button is-dark" onclick="window.location.href='/rEnder_it.html'">Play the Game!</button>
+        <button class="button is-dark" onclick="window.location.href='/comp426final/rEnder_it.html'">Play the Game!</button>
         <button id="logout" class="button is-dark" >Logout</button>
     </div>
     </div>`);
