@@ -31,12 +31,25 @@ export const setupPage = function(user) {
                         <button id="startGame" class="button is-dark">Start the Game</button>
                     </div>
                 </div>
+                <div class="column has-background-dark">
+                    <div id="gameInformation" class="box">
+                        <p class="subtitle has-text-dark">Reference Controls/Cards</p>
+                        <p class="has-text-dark"><span class="has-text-danger">Hearts Card:</span> hiding in the cave heals you to full health</p>
+                        <p class="has-text-dark"><span class="has-text-danger">Spades Card:</span> shield prevents dragon from dealing damage </p>
+                        <p class="has-text-dark"><span class="has-text-danger">Clubs Card:</span> in attack, you deal twice as much damage to the dragon as normal </p>
+                        <p class="has-text-dark"><span class="has-text-danger">Diamonds Card:</span> the dragon heals an 8th of its remaining health (to a max of 100%)</p>
+                        <br>
+                        <p class="has-text-grey">Up Arrow Button: Standard attack. You and the dragon take damage.</p>
+                        <p class="has-text-grey">Left Arrow Button: Hide in the cave. Neither you nor the dragon take damage.</p>
+                        <p class="has-text-grey">Right Arrow Button: Shoot an arrow from behind shield, take 1/2 damage. Dragon takes 3/4 damage.</p>
+                    </div>
+                </div>
             </div>
 
 
             <br>
             <p class="subtitle has-text-dark">How The Game Works</p>
-            <p class="has-text-grey">In each game a random number is selected with help from an API. The damage and health of the player and dragon are determined using a formula based on this random number. The goal of the game is to get the dragon's health to drop below 0 before the player's health drops below 0.</p>
+            <p class="has-text-grey">At the start of each game, a random number beween 0 and 255 is selected by an API. The attack damage and maximum health of the player and dragon are determined based on this random number. The goal of the game is to get the dragon's health to drop below 0 before the player's health drops below 0.</p>
             <br>
             <p class="subtitle has-text-dark">Controls</p>
             <p class="has-text-grey">Up Arrow Button: You perform a standard attack. You and the dragon take damage.</p>
