@@ -33,15 +33,15 @@ export const setupPage = function(user) {
                 </div>
                 <div class="column has-background-dark">
                     <div id="gameInformation" class="box">
+                        <p class="has-text-dark"><span class="has-text-danger">Up Arrow:</span> Standard attack. You and the dragon take damage.</p>
+                        <p class="has-text-dark"><span class="has-text-danger">Left Arrow:</span> Hide in the cave. Neither you nor the dragon take damage.</p>
+                        <p class="has-text-dark"><span class="has-text-danger">Right Arrow:</span> Shoot an arrow from behind shield, take 1/2 damage. Dragon takes 3/4 damage.</p>
+                        <br>
                         <p class="subtitle has-text-dark">Reference Controls/Cards</p>
                         <p class="has-text-dark"><span class="has-text-danger">Hearts Card:</span> hiding in the cave heals you to full health</p>
                         <p class="has-text-dark"><span class="has-text-danger">Spades Card:</span> shield prevents dragon from dealing damage </p>
                         <p class="has-text-dark"><span class="has-text-danger">Clubs Card:</span> in attack, you deal twice as much damage to the dragon as normal </p>
                         <p class="has-text-dark"><span class="has-text-danger">Diamonds Card:</span> the dragon heals an 8th of its remaining health (to a max of 100%)</p>
-                        <br>
-                        <p class="has-text-grey">Up Arrow Button: Standard attack. You and the dragon take damage.</p>
-                        <p class="has-text-grey">Left Arrow Button: Hide in the cave. Neither you nor the dragon take damage.</p>
-                        <p class="has-text-grey">Right Arrow Button: Shoot an arrow from behind shield, take 1/2 damage. Dragon takes 3/4 damage.</p>
                     </div>
                 </div>
             </div>
